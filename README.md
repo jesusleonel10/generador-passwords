@@ -6,7 +6,7 @@
 
 ### Links
 
-- Live Site URL: [Here!](https://jesusleonel10.github.io/BlogrLandingPage/)
+- Live Site URL: [Here!](https://jesusleonel10.github.io/generador-passwords/)
 
 ## Author
 
