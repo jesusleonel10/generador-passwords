@@ -1,0 +1,94 @@
+*, *,::after, *::before {box-sizing: border-box;}
+html {
+    font-size: 16px;
+    background-color: azure;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 3rem;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: rgb(247, 244, 244);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 10px 15px 12px rgba(0,0,0,0.1);
+}
+
+.options {
+    width: 100%;
+}
+
+.option__check {
+    margin-bottom: .5rem;
+}
+
+#PasswordResult {
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 100%;
+}
+
+#PasswordLength {
+    height: 30px;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn:nth-child(1) {
+    background-color: #29af20;
+}
+
+.btn:nth-child(1):hover {
+    background-color: #5ebe57;
+}
+
+.btn {
+    background-color: #2563eb;
+    width: 50%;
+    padding: 8px 12px;
+    margin-top: 35px;
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    background-color: #487beb;
+
+}
+
+#level {
+    width: 90%;
+    height: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    outline: .5px solid rgb(201, 200, 200);
+
+}
+
+#level___bar {
+    width: 100%;
+    height: 15px;
+    background-color: #caced6;
+    border-radius: 15px;
+}
+
+span {
+    font-size: .9rem;
+}
